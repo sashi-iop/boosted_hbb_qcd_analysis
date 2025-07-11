@@ -1,0 +1,64 @@
+features:
+# Jet features (High level features)
+ - fj_jetNTracks
+ - fj_nSV
+ - fj_tau0_trackEtaRel_0
+ - fj_tau0_trackEtaRel_1
+ - fj_tau0_trackEtaRel_2
+ - fj_tau1_trackEtaRel_0
+ - fj_tau1_trackEtaRel_1
+ - fj_tau1_trackEtaRel_2
+ - fj_tau_flightDistance2dSig_0
+ - fj_tau_flightDistance2dSig_1
+ - fj_tau_vertexDeltaR_0
+ - fj_tau_vertexEnergyRatio_0
+ - fj_tau_vertexEnergyRatio_1
+ - fj_tau_vertexMass_0
+ - fj_tau_vertexMass_1
+ - fj_trackSip2dSigAboveBottom_0
+ - fj_trackSip2dSigAboveBottom_1
+ - fj_trackSip2dSigAboveCharm_0
+ - fj_trackSipdSig_0
+ - fj_trackSipdSig_0_0
+ - fj_trackSipdSig_0_1
+ - fj_trackSipdSig_1
+ - fj_trackSipdSig_1_0
+ - fj_trackSipdSig_1_1
+ - fj_trackSipdSig_2
+ - fj_trackSipdSig_3
+ - fj_z_ratio
+ - fj_tau21
+ - fj_tau32
+ # Track fetures (low level features)
+ - trackBTag_DeltaR
+ - trackBTag_Eta
+ - trackBTag_EtaRel
+ - trackBTag_JetDistVal
+ - trackBTag_Momentum
+ - trackBTag_PPar
+ - trackBTag_PParRatio
+ - trackBTag_PtRatio
+ - trackBTag_PtRel
+ - trackBTag_Sip2dSig
+ - trackBTag_Sip2dVal
+ - trackBTag_Sip3dSig
+ - trackBTag_Sip3dVal
+            
+# spectators to define mass/pT window
+spectators: 
+ - fj_sdmass
+ - fj_pt
+
+# 2 labels: QCD or Hbb (we'll reduce the following labels)
+labels:  
+ - label_QCD_b
+ - label_QCD_bb
+ - label_QCD_c
+ - label_QCD_cc
+ - label_QCD_others
+ - sample_isQCD
+ - label_H_bb
+
+nfeatures: 42
+nspectators: 2
+nlabels: 2
