@@ -40,3 +40,7 @@ This is my predoctoral project on "STUDY OF BOOSTED HIGGS BOSON AT LHC USING DEE
    `xrdcp root://eospublic.cern.ch//eos/opendata/cms/datascience/HiggsToBBNtupleProducerTool/HiggsToBBNTuple_HiggsToBB_QCD_RunII_13TeV_MC/train/ntuple_merged11.root .`
 
    `xrdcp root://eospublic.cern.ch//eos/opendata/cms/datascience/HiggsToBBNtupleProducerTool/HiggsToBBNTuple_HiggsToBB_QCD_RunII_13TeV_MC/test/ntuple_merged_0.root .`
+
+### It is recomended that you should provide the number data that you want to train, validate and test.
+
+### First run all the models except summary because no trained models are there. Summary.ipynb usually import the trained models and is used for the testing and comparison.
