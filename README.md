@@ -18,7 +18,7 @@ This is my predoctoral project on "STUDY OF BOOSTED HIGGS BOSON AT LHC USING DEE
 
 2. **If you access it through the Cern Swan,**
 
-    * Provide the full url of the file
+    * Provide the complete url of the file
   
       `root://eospublic.cern.ch//eos/opendata/cms/datascience/HiggsToBBNtupleProducerTool/HiggsToBBNTuple_HiggsToBB_QCD_RunII_13TeV_MC/train/ntuple_merged_10.root`
       
